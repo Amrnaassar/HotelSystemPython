@@ -1,0 +1,82 @@
+*{
+	box-sizing:boder-box;
+}
+body{
+	height:1000px;
+	margin:0px;
+}
+.container{
+	width:1170px;
+	margin:auto;
+}
+.header .slider{
+	background-image:url("../images/digital-world.jpg");
+	background-size:cover;
+	height:500px;
+}
+.header .slider .intro{
+	text-align:center;
+	padding-top:150px;
+	color:#EEE;
+}
+.header .slider .intro h2{
+	font-weight:bold;
+	font-size:50px;
+	border-top:3px solid #EEE;
+	border-bottom:3px solid #EEE;
+	width:530px;
+	margin:0 auto;
+	padding:5px 0px;
+}
+.header .slider .intro button{
+	background:none;
+	margin:20px 0px;
+	font-size:20px;
+	border:1px solid #EEE;
+	width:150px;
+}
+.header .navbar{
+	background-color:#252f31;
+	color:#FFF;
+	overflow:hidden;
+}
+.header .navbar h2{float:left;text-transform:uppercase;}
+.header .navbar h2 span{color:#2ecc71;}
+.header .navbar ul{
+	padding-left:0px;
+	list-style:none;
+	overflow:hidden;
+	float:right;
+}
+.header .navbar ul li{padding:10px;float:left; font-size:20px;}
+.header .navbar ul li a{text-decoration:none;color:#EEE}
+.header .navbar ul .active a,
+.header .navbar ul li a:hover{
+	color:#30B576
+}
+.feature{
+	overflow:hidden;
+}
+.feature .feat{
+	float:left;
+	width:33.333333%;
+	height:200px;
+	margin:15px 0;
+}
+.feature .feat h2{text-transform:uppercase;}
+.feature .feat p{font-size:15px; line-height:1.7}
+.About{background-color:#F2F2F2;overflow:hidden}
+.About .image{width:40%;float:left}
+.About .image img{width:100%}
+.About .Hobbies{float:left;width:60%}
+.About .Hobbies h2{font-size:30px;text-transform:uppercase;margin:30px 0px 15px 50px}
+.About .Hobbies > p{font-size:20px;margin:10px 0px 0px 50px} 
+.About .heading{overflow:hidden;margin:10px 0px 0px 50px;}
+.About .heading > div {
+	float:left;
+	width:50%;
+	min-height:100px;
+}
+.About .heading > div h3{color:#555}
+	
+}

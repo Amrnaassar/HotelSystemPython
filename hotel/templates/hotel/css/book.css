@@ -1,0 +1,27 @@
+.booking{
+	background-color:Khaki;
+	width:100%;
+	height:100%;
+	background-size:cover;
+}
+.booking h1{
+	font-weight:bold;
+	padding:30px 20px;
+	font-size:50px;
+	letter-spacing:5px;
+	color:darkred;
+}
+.booking table th{
+	font-size:30px;
+}
+.booking table td{
+	line-height:50px;
+	font-size:40px;
+}
+.booking table input{
+	width:170px;
+	height:35px;
+	border-radius:5px;
+}
+.booking .button{padding:20px;}
+.booking .button input{width:100px;height:30px;border-radius:3px; background-color:darkgreen; color:#FFF}

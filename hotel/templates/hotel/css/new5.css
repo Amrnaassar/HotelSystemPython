@@ -1,0 +1,177 @@
+body{
+	margin:0px;
+}
+.main{
+	background-image:url('../images/903303_32_z.jpg');
+	background-size:cover;
+	height:660px;
+}
+.main .link{
+	overflow:hidden;
+}
+.main .link ul li{
+	list-style:none;
+	padding:20px;
+	float:left;
+	background-color:#808080;
+	font-size:20px;
+}
+.main .link ul li a{
+	text-decoration:none;
+	color:#FFF;
+	overflow:hidden
+}
+.main .link ul li a:hover{color:blue;}
+.main .name h1{
+	position:relative;
+	float:right;
+	margin:100px 200px 0px 0px;
+	letter-spacing:5px;
+	font-weight:bold;
+	font-size:50px;
+	color:#000;
+	font-style:italic;
+	
+}
+.main .middy .despription{overflow:hidden}
+.main .middy  .despription ul{
+	margin-top:280px;
+	background-color:#000;
+	opacity:0.6;
+	width:280px;
+	height:180px;
+	margin-left:30px;
+}
+.main .middy  .despription ul li{
+	line-height:30px;
+	font-size:20px;
+	color:#fff;
+}
+.main .middy .despription ul li span{
+	color:white;
+	font-size:40px;
+}
+.main .form{
+	float:right;
+	width:350px;
+	height:250px;
+	margin-top:-250px;
+	margin-right:250px;
+	line-height:25px;
+	background-color:#000;
+	opacity:0.6;
+	overflow:hidden;
+}
+.main .form label{
+	color:#808080;
+	font-size:20px;
+	padding:10px;
+	margin:8px 0px 10px 15px;
+	color:#FFF
+}
+.main .form input{
+	margin:20px;
+	padding:5px;
+	border-radius:7px;
+}
+.main .form  button{
+	padding:2px;
+	border-radius:4px;
+	margin-left:20px;
+	width:70px;
+}
+.main .form{
+	float:right;
+	width:350px;
+	height:250px;
+	margin-top:-250px;
+	margin-right:250px;
+	line-height:25px;
+	background-color:#000;
+	opacity:0.6;
+	overflow:hidden;
+}
+.main .form label{
+	color:#808080;
+	font-size:20px;
+	padding:10px;
+	margin:8px 0px 10px 15px;
+	color:#FFF
+}
+.main .form input{
+	margin:20px;
+	padding:5px;
+	border-radius:7px;
+}
+.main .form  button{
+	padding:2px;
+	border-radius:4px;
+	margin-left:20px;
+	width:70px;
+}
+.booking{
+	background-color:Khaki;
+	width:100%;
+	height:690px;
+	background-size:cover;
+	margin-top:-34px
+}
+.booking h1{
+	font-weight:bold;
+	padding:30px 20px;
+	font-size:50px;
+	letter-spacing:5px;
+	color:darkred;
+}
+.booking table th{
+	font-size:30px;
+}
+.booking table td{
+	line-height:50px;
+	font-size:40px;
+}
+.booking table input{
+	width:170px;
+	height:35px;
+	border-radius:5px;
+}
+.booking .button{padding:20px;}
+.booking .button input{width:100px;height:30px;border-radius:3px; background-color:darkgreen; color:#FFF}
+.about{
+	height:345px;
+	background-color:#795563;
+	overflow:hidden;
+}
+.about .About{width:50%;float:left;}
+.about .About h2{font-size:30px;text-transform:uppercase;margin-left:80px;overflow:hidden;color:#FFF;padding:10px}
+.about  .About p{font-size:20px;padding:5px;margin-left:20px;overflow:hidden;color:#FFF}
+.about  .new h2{font-size:30px;text-transform:uppercase;margin-left:80px;color:#FFF;padding:10px}
+.about  .new input{width:200px;height:50px;padding:10px;}
+.cont .tow{width:50%; float:left;background-color:#93756F;}
+.cont h1{color:white;font-size:30px;text-indent:200px;text-transform:uppercase}
+.cont h2,h4{color:white;font-size:20px;text-indent:30px;margin-top:27px;overflow:hidden}
+.cont textarea{margin-top:73px;border-radius:10px;}
+.cont button{color:#5396ca;border-radius:5px;width:60px;margin:8px;}
+.foot{background-color:#000;color:white;text-align:center; font-size:30px}
+.home{
+	margin-top:250px;
+	background-image:url('../images/ca61eda4.jpg');
+	background-size:cover;
+}
+.home div h2{
+	font-size:50px;
+	font-style:italic;
+	font-weight:bold
+}
+.home div ul li{
+	list-style:none;
+	padding:20px;
+	float:left;
+	font-size:20px;
+	margin-left:300px;
+}
+.home div ul li a{
+	text-decoration:none;
+	color:#FFF;
+	font-size:50px
+}

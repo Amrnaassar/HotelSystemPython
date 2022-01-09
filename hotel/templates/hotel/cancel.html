@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> My Hotel </title>
+		<style>
+					body{
+				margin:0px;
+			}
+			.about{
+				height:345px;
+				background-color:#795563;
+				overflow:hidden;
+			}
+			.about .About{width:50%;float:left;}
+			.about .About h2{font-size:30px;text-transform:uppercase;margin-left:80px;overflow:hidden;color:#FFF;padding:10px}
+			.about  .About p{font-size:20px;padding:5px;margin-left:20px;overflow:hidden;color:#FFF}
+			.about  .cancel h2{font-size:30px;text-transform:uppercase;margin-left:80px;color:#FFF;padding:10px}
+			.about  .cancel input{width:200px;height:50px;padding:10px;}
+			.cont .tow{width:50%; float:left;background-color:#93756F;}
+			.cont h1{color:white;font-size:30px;text-indent:200px;text-transform:uppercase}
+			.cont h2,h4{color:white;font-size:20px;text-indent:30px;margin-top:27px;overflow:hidden}
+			.cont textarea{margin-top:73px;border-radius:10px;}
+			.cont button{color:#5396ca;border-radius:5px;width:60px;margin:8px;}
+			.foot{background-color:#000;color:white;text-align:center; font-size:30px;}
+		</style>
+	</head>
+	<body>
+
+		<form method="post">
+		{% csrf_token %}
+			<div class="about" id="ss">
+					<div class="About">
+						<h2>Cancelling </h2>
+						<p>You can cancelling your booking by entering you ID
+
+						</p>
+					</div>
+					<div class="cancel">
+						<h2>CanCelation</h2>
+						<form>
+							<input type="number" name="id" placeholder="Enter Your ID" required="required" ><br><br>
+							<input type="submit" value="cancel">
+						</form>
+					</div>
+			</div>
+			<div class="cont" id="cont">
+				<div class="tow">
+					<h1>Contact Me </h1>
+					<a href="https://www.facebook.com/amrnassar10299" target="_self"><h2> Omar Fathi</h2></a>
+					<a href="https://www.facebook.com/amr.rageb.568" target="_self"><h2> Amr Ragab</h2></a>
+					<a href="https://www.facebook.com/omar.jamal.501598" target="_self"><h2> Omar Gamal </h2></a>
+
+					<h4>nassaramr73@gmail.com</h4>
+				</div>
+				<div class="tow">
+					<form style="height:265px">
+						<textarea cols="30px" rows="10px" placeholder="Add Comment !" ></textarea>
+						<br>
+						<button >Sent</button>
+					</form>
+				</div>
+			</div>
+			<div style="clear:both"></div>
+			<div class="foot">
+				Copy Right &copy  Amr Ragab
+			</div>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,12 @@
+.up{
+	background-position:center;
+	background-color:#00308f;
+	width:100%;
+	height:250px;
+}
+.up p{
+	font-size:30px;
+	font-family:"Book Antiqua";
+	text-align:center;
+	margin:0px;
+}

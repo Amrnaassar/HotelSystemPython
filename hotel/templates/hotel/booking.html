@@ -1,0 +1,93 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> My Hotel </title>
+		<style>
+
+						body{
+				margin:0px;
+			}
+			.booking{
+				background:linear-gradient(to right,red,blue);
+				width:100%;
+				height:690px;
+				background-size:cover;
+				margin-top:-34px
+			}
+			.booking h1{
+				font-weight:bold;
+				padding:30px 20px;
+				font-size:50px;
+				letter-spacing:5px;
+				color:#000;
+			}
+			.booking table th{
+				font-size:30px;
+			}
+			.booking table td{
+				line-height:50px;
+				font-size:40px;
+			}
+			.booking table input{
+				width:300px;
+				height:40px;
+				border-radius:5px;
+			}
+			.booking .button{padding:50px;}
+			.booking .button input{width:200px;height:30px;border-radius:3px; background-color:#000; color:#FFF}
+
+		</style>
+	</head>
+	<body>
+	<form method="post">
+		{% csrf_token %}
+		<div class="booking">
+			<center>
+				<h1> BooKing Now </h1>
+
+
+				<table>
+					<tr>
+						<th>Name</th>
+						<td>:</td>
+						<td><input type="text" name= "name" placeholder="Enter your Name.." required></td>
+					</tr>
+					<tr>
+						<th>ID</th>
+						<td>:</td>
+						<td><input type="number" name= "id" placeholder="Enter your ID.." required></td>
+					</tr>
+					<tr>
+						<th>Email</th>
+						<td>:</td>
+						<td><input type="Email" name="email" placeholder="Enter your Email.." required></td>
+					</tr>
+					<tr>
+						<th>Phone Number</th>
+						<td>:</td>
+						<td><input type="text" name="phone" placeholder="Enter your Number."required></td>
+					</tr>
+
+
+					<tr>
+						<th>Days</th>
+						<td>:</td>
+						<td><input type="number" name="days" placeholder="Enter your Days." required></td>
+					</tr>
+					<tr>
+						<th>Number of Room</th>
+						<td>:</td>
+						<td><input type="number" name="roomnum" placeholder="Enter room number." required></td>
+					</tr>
+				</table>
+				<div class="button">
+					<input type="submit" value="add">
+					<input type="submit" value="Cancel" onClick="window.location.href=window.location.href">
+
+				</div>
+
+			</center>
+		</div>
+	</form>
+	</body>
+</html>
